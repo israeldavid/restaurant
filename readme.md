@@ -4,7 +4,7 @@
 </p>
 
 <b>Front-End</b>
-Ionic 4 CLI 5
+<p>Ionic 4 CLI 5</p>
 <b>Back-End</b>
 <p>PHP</p>
 <b>Base de datos</b>
