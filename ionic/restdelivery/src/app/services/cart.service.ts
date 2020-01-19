@@ -7,10 +7,10 @@ import { Productos } from '../interfaces/productos'
 })
 export class CartService {
   data: Productos[] = [
-    { id: 0, name: 'Pizza Salami', price: 8.99, amount: 1 },
-    { id: 1, name: 'Pizza Classic', price: 5.49, amount: 1 },
-    { id: 2, name: 'Sliced Bread', price: 4.99, amount: 1 },
-    { id: 3, name: 'Salad', price: 6.99, amount: 1 }
+    { id: 0, name: 'Bolon Mixto', price: 8.99, amount: 1 },
+    { id: 1, name: 'Bolon Classic', price: 5.49, amount: 1 },
+    { id: 2, name: 'Bolon de Maduro', price: 4.99, amount: 1 },
+    { id: 3, name: 'Bolon Queso', price: 6.99, amount: 1 }
   ];
   private cart = [];
   private cartItemCount = new BehaviorSubject(0);
